@@ -1,0 +1,44 @@
+body{margin: 0;font-family: Arial, Helvetica, sans-serif;}
+section{width: 80%;height: 600px;
+justify-content: center;align-items: center;display: flex;
+margin-top:50px ;margin-left: 10%;
+}
+.half-area h3{font-weight: 300;
+
+}
+.half-area .pink-highlight{
+    color: #ec4c7a;font-weight: bolder;
+}
+a{background-image:linear-gradient(to right,lightsalmon,tomato);text-decoration: none;padding: 10px 20px;border-radius: 5px;color: white;font-weight: bold;
+
+}
+.half-area{
+    width: 40%;margin: 50px 50px;
+}
+.half-area img{
+   width: 100%; 
+}
+.top-banner{background-image: url(images/header-bg.png);background-repeat: no-repeat;background-position: center;
+
+}
+.bio-area{background-image: url(images/biography-bg.png);
+background-repeat: no-repeat;background-position: center;background-size: cover;}
+
+
+.one img{width: 100%;height: 300px;margin: 10px;}
+
+.latest-area{display: block;text-align: center;background-image: url(images/latest-work-bg.png);background-repeat: no-repeat;background-size: cover;height: 400px;}
+
+.latest-div{display: flex;}
+
+.last-part{display: block;text-align: center;height: 400px;}
+
+.last-part .client{font-weight: 600;margin-bottom: 50px;}
+.last-part .founder{font-size: 17px;}
+.last-part #alies{font-size: 10px;color: gray;margin-bottom: 20px;}
+.box #message{font-size: 12px;}
+
+.box #email{font-size: 19px;}
+.box{background-color:#ec6a8f ;display: inline-block;padding: 5px 90px;
+border-radius: 5px;}
+footer {text-align: center;font-size: 10px;color: gray;margin-bottom: 20px;}
